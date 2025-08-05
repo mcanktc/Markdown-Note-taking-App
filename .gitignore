@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# Env
+.env
+.env.*
+venv/
+env/
+ENV/
+.venv/
+.venv.bak/
+env.bak/
+*.env
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+*.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test/coverage
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+test-results/
+
+# Migrations (İsteğe bağlı silmek için takipten çıkarılabilir)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# MySQL / PostgreSQL dump
+*.sql
+*.dump
+
+# Jupyter / Notebooks (Eğer kullanıyorsan)
+.ipynb_checkpoints/
+
+
+# OS & Editor junk
+*.bak
+*.swp
+*.swo
+*~
